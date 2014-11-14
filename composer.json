@@ -16,13 +16,31 @@
             "email": "martin.shwalbe@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fabiocarneiro/common"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fabiocarneiro/dbal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fabiocarneiro/DoctrineModule"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fabiocarneiro/DoctrineORMModule"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "zendframework/zend-modulemanager": "2.*",
         "zendframework/zend-eventmanager": "2.*",
         "zendframework/zend-servicemanager": "2.*",
         "doctrine/data-fixtures": "1.0.*",
-        "doctrine/doctrine-orm-module": "~0.7"
+        "doctrine/doctrine-orm-module": "dev-temporary-fix-for-doctrine-hydrator"
     },
     "require-dev": {
         "phpunit/phpunit" : "3.7.*",
